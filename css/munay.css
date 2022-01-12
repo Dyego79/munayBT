@@ -14,16 +14,16 @@
   margin-bottom: 300px;
 }
 .slide01{
-  background: url("/assets/img/background_Home.jpg") no-repeat;
+  background: url("../assets/img/background_Home.jpg") no-repeat;
   background-size: cover;
 }
 .slide02{
-  background: url("/assets/img/background_Home2.jpg") no-repeat;
+  background: url("../assets/img/background_Home2.jpg") no-repeat;
   background-size: cover;
   background-position: 0% 35%;
 }
 .slide03{
-  background: url("/assets/img/background_Home3.jpg") no-repeat;
+  background: url("../assets/img/background_Home3.jpg") no-repeat;
   background-size: cover;
 }
 .carousel-item .degrade{
