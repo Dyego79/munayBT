@@ -1,3 +1,22 @@
+.up {
+  background-color: #ee7779;
+  border-radius: 100%;
+  height: 3rem;
+  width: 3rem;
+  text-align: center;
+  line-height: 3rem;
+  position: fixed;
+  right: 1.5rem;
+  bottom: 1.5rem;
+}
+.up i{
+  color: white;
+}
+.up a{
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
 .logo{
     height: 45px;
   }
