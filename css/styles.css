@@ -3945,7 +3945,7 @@ textarea.form-control-lg {
 .nav-link {
   display: block;
   padding: 0.5rem 1rem;
-  color: #0f1c57;
+  color: #f7e9f7;
   text-decoration: none;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
 }
@@ -7772,10 +7772,10 @@ textarea.form-control-lg {
   color: rgba(var(--bs-body-color-rgb), var(--bs-text-opacity)) !important;
 }
 
-.text-muted {
+/* .text-muted {
   --bs-text-opacity: 1;
   color: #6c757d !important;
-}
+} */
 
 .text-black-50 {
   --bs-text-opacity: 1;

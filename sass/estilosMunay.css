@@ -1,0 +1,254 @@
+.text-muted {
+  color: #f7e6e8;
+}
+
+footer {
+  color: #f7e6e8;
+}
+
+body {
+  background-color: #3f1116;
+}
+
+.up {
+  background-color: #ee7779;
+  border-radius: 100%;
+  height: 3rem;
+  width: 3rem;
+  text-align: center;
+  line-height: 3rem;
+  position: fixed;
+  right: 1.5rem;
+  bottom: 1.5rem;
+}
+
+.up i {
+  color: white;
+}
+
+.up a {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+
+.logo {
+  height: 45px;
+}
+
+.altura {
+  height: 80vh;
+}
+
+.padinSlide {
+  padding-bottom: 15rem;
+}
+
+.marginabajo {
+  margin-bottom: 300px;
+}
+
+.slide01 {
+  background: url("../assets/img/background_Home.jpg") no-repeat;
+  background-size: cover;
+}
+
+.slide02 {
+  background: url("../assets/img/background_Home2.jpg") no-repeat;
+  background-size: cover;
+  background-position: 0% 35%;
+}
+
+.slide03 {
+  background: url("../assets/img/background_Home3.jpg") no-repeat;
+  background-size: cover;
+}
+
+.degrade {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(75, 28, 55, 0.8)), color-stop(rgba(255, 255, 255, 0.45)), color-stop(rgba(255, 255, 255, 0.45)), to(rgba(75, 28, 55, 0.8)));
+  background: linear-gradient(rgba(75, 28, 55, 0.8), rgba(255, 255, 255, 0.45), rgba(255, 255, 255, 0.45), rgba(75, 28, 55, 0.8));
+  width: 100%;
+  height: 100%;
+  mix-blend-mode: multiply;
+  position: relative;
+}
+
+.card .imagenCard:nth-child(1) {
+  background-image: url("../assets/img/tematica-panda.jpg");
+  background-size: 100%;
+  width: 100%;
+  height: 100%;
+}
+
+.card h5 {
+  font-size: 1.75rem;
+  font-family: "Luckiest Guy", cursive;
+}
+
+#contacto h3 {
+  font-size: 2rem;
+}
+
+.encabezado {
+  background: url("../assets/img/BackGroundTexture2.jpg") no-repeat;
+  background-size: cover;
+}
+
+.encabezado img {
+  margin-top: 8rem;
+  height: 8rem;
+}
+
+.textoEncabezado {
+  text-shadow: 0 0 15px black;
+}
+
+.tematicas {
+  background-color: #ee7779;
+}
+
+.card-text {
+  font-family: "Luckiest Guy", cursive;
+  font-size: 2rem;
+  color: #61cac1;
+}
+
+.serviciosCard {
+  -webkit-box-sizing: content-box !important;
+          box-sizing: content-box !important;
+  border: 1px solid #cfcfcf;
+  border-radius: 0.25rem;
+  overflow: hidden;
+}
+
+.servicios__items {
+  background: url("../assets/img/BackGroundTexture.jpg") no-repeat;
+  background-size: cover;
+  color: #f0f0f0;
+  font-family: "Luckiest Guy", cursive;
+}
+
+.servicios__items h3 {
+  font-size: 3rem;
+  color: #ee7779;
+  font-family: "Luckiest Guy", cursive;
+}
+
+.productosItemCarpita {
+  background: url("../assets/img/decoracion-pijamada-01.jpg") no-repeat;
+  background-size: cover;
+  color: #f0f0f0;
+  font-family: "Luckiest Guy", cursive;
+}
+
+.productosItemCarpita h3 {
+  text-shadow: 0 0 15px black;
+  font-size: 3rem;
+  color: #ebebeb;
+  font-family: "Luckiest Guy", cursive;
+}
+
+.productosItemJuegos {
+  background: url("../assets/img/juego-tutti-fruti-para-ninos.jpg") no-repeat;
+  background-size: cover;
+  color: #f0f0f0;
+  font-family: "Luckiest Guy", cursive;
+}
+
+.productosItemJuegos h3 {
+  text-shadow: 0 0 15px black;
+  font-size: 3rem;
+  color: #ebebeb;
+  font-family: "Luckiest Guy", cursive;
+}
+
+.productosItemDeco {
+  background: url("../assets/img/deco_mdf.jpg") no-repeat;
+  background-size: cover;
+  color: #f0f0f0;
+  font-family: "Luckiest Guy", cursive h3;
+  font-family-text-shadow: 0 0 15px black;
+  font-family-font-size: 3rem;
+  font-family-color: #ebebeb;
+  font-family-font-family: "Luckiest Guy", cursive;
+}
+
+@media (min-width: 360px) {
+  .logo {
+    height: 40px;
+  }
+  form input {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    height: 3.25rem;
+    border: 1px solid #c8c8c8;
+    border-radius: 0.2rem;
+    padding: 0.5rem;
+    -webkit-transition: all 0.3s ease 0.2s;
+    transition: all 0.3s ease 0.2s;
+  }
+  form input:focus {
+    border: 3px solid #92528f;
+    -webkit-box-shadow: 0 0 5px rgba(75, 28, 55, 0.8);
+            box-shadow: 0 0 5px rgba(75, 28, 55, 0.8);
+  }
+  form label {
+    display: none;
+  }
+  form textarea {
+    border: 1px solid #c8c8c8;
+    border-radius: 0.2rem;
+    padding: 0.8rem;
+    color: #282828;
+  }
+}
+
+@media (max-width: 361px) and (min-width: 768px) {
+  form input {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    height: 3.25rem;
+    border: 1px solid #c8c8c8;
+    border-radius: 0.2rem;
+    padding: 0.5rem;
+    -webkit-transition: all 0.3s ease 0.2s;
+    transition: all 0.3s ease 0.2s;
+  }
+  form input:focus {
+    border: 3px solid #92528f;
+    -webkit-box-shadow: 0 0 5px rgba(75, 28, 55, 0.8);
+            box-shadow: 0 0 5px rgba(75, 28, 55, 0.8);
+  }
+  form label {
+    display: none;
+  }
+  form textarea {
+    border: 1px solid #c8c8c8;
+    border-radius: 0.2rem;
+  }
+}
+
+@media (max-width: 991px) {
+  .productosItemCarpita {
+    min-height: 200px;
+  }
+  .productosItemCarpita h3 {
+    font-size: 4rem;
+  }
+  .productosItemJuegos {
+    min-height: 200px;
+  }
+  .productosItemJuegos h3 {
+    font-size: 4rem;
+  }
+  .productosItemDeco {
+    min-height: 200px;
+  }
+  .productosItemDeco h3 {
+    font-size: 4rem;
+  }
+  .servicios__items {
+    min-height: 200px;
+  }
+}
+/*# sourceMappingURL=estilosMunay.css.map */
